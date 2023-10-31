@@ -1,0 +1,16 @@
+### 키 등록
+POST http://localhost:8080/add-redis-key
+Content-Type: application/json
+
+{
+  "key": "name",
+  "value": "Susia"
+}
+
+### 키 조회
+POST http://localhost:8080/get-redis-value
+Content-Type: application/json
+
+{
+  "key": "name"
+}
